@@ -1,0 +1,32 @@
+[gd_scene load_steps=3 format=3 uid="uid://dj52tgmi4sdeh"]
+
+[ext_resource type="PackedScene" uid="uid://b0mb2m7n7aif7" path="res://LevelBordersScenes/Border.tscn" id="1_oyvaf"]
+[ext_resource type="PackedScene" uid="uid://duqds42qjd6ku" path="res://LevelBordersScenes/Gate.tscn" id="2_u2wun"]
+
+[node name="LevelBorders" type="Node"]
+
+[node name="Border" parent="." instance=ExtResource("1_oyvaf")]
+position = Vector2(314, 34)
+
+[node name="Border5" parent="." instance=ExtResource("1_oyvaf")]
+position = Vector2(32, 319)
+rotation = 1.5708
+
+[node name="Border6" parent="." instance=ExtResource("1_oyvaf")]
+position = Vector2(1122, 331)
+rotation = 1.5708
+
+[node name="Border2" parent="." instance=ExtResource("1_oyvaf")]
+position = Vector2(1012, 35)
+
+[node name="Gate" parent="." instance=ExtResource("2_u2wun")]
+position = Vector2(664, 34)
+
+[node name="Border3" parent="." instance=ExtResource("1_oyvaf")]
+position = Vector2(302, 618)
+
+[node name="Border4" parent="." instance=ExtResource("1_oyvaf")]
+position = Vector2(1000, 619)
+
+[node name="Gate2" parent="." instance=ExtResource("2_u2wun")]
+position = Vector2(652, 618)
